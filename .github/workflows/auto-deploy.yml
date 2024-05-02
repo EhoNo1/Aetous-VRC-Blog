@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   actions: write
+  gh-pages: write
 
 jobs:
   build:
