@@ -1,0 +1,9 @@
+.navbar {
+    background-image: linear-gradient(#8243b6, #5d1fa5 60%, #5718bd);
+}
+.nav-link {
+    color: #6f24c5;
+}
+.nav-link:hover{
+    color: #9648f0;
+}
