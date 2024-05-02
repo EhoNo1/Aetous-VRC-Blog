@@ -1,0 +1,5 @@
+site_name: Aetous' VRC Blog
+plugins:
+  - search
+extra_css:
+  - css/custom.css
