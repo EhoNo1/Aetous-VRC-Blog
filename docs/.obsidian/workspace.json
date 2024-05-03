@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guides/Avatar Texture Optimization.md",
+                "file": "Worlds/ISWM W2G.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guides/Avatar Texture Optimization.md",
+                "file": "Worlds/ISWM W2G.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guides/Avatar Texture Optimization.md",
+                "file": "Worlds/ISWM W2G.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guides/Avatar Texture Optimization.md"
+                "file": "Worlds/ISWM W2G.md"
               }
             }
           }
@@ -148,13 +148,19 @@
   },
   "active": "5a7e39a5a7279ac6",
   "lastOpenFiles": [
+    "Worlds/Abstract Backyard Glow.md",
+    "Worlds/img/ISWMTheaterExample.png",
+    "Guides/Avatar Texture Optimization.md",
+    "Guides/img/ImporterExample.png",
+    "Worlds/ISWM W2G.md",
+    "Worlds/img",
+    "Worlds/Zines",
+    "index.md",
+    "Worlds",
     "stylesheets/custom.css",
     "stylesheets",
     "().md",
-    "Guides/Avatar Texture Optimization.md",
-    "Guides/img/ImporterExample.png",
     "Guides/img",
-    "index.md",
     "Guides"
   ]
 }
