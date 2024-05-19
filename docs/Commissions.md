@@ -21,15 +21,11 @@ Already got a world but don't want to bother or don't know how to port it to Que
 #### Environments
 
 - $30 3D External environment.
-- $FREE Skybox external environment.
-
-
-
+- $FREE 2D Skybox (a free or CC0 asset found elsewhere).
 
 ---
 ## Code Commissions
-Need someone to write some Udon# code for you? I got you.
-
+Need someone to write some Udon# code for you? I got you. Price varies depending on complexity, reach out to me and we'll figure out a price.
 
 ---
 ## Important Notes
@@ -42,4 +38,4 @@ Need someone to write some Udon# code for you? I got you.
 - **These prices are subject to change at any time.** I may choose to update these prices from time-to-time.
 - **Final prices be different depending on the complexity.** If your project is more or less complex we may negotiate a lower or higher price.
 - **All prices are in USD.**
-- **Half of payment is expected upfront. Second Half is due at completion before the project files are provided.** Paying the full price early is permitted.
+- **Half of payment is expected upfront. Second Half is due at completion before the project files are provided.** Paying the full price early is permitted and greatly appreciated, but does not automatically grant expedited service.
