@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "310fba4ba02c73de",
+            "id": "25844325cf2a2ebb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Commissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "866cefc95ebc7a2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Commissions.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Commissions.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Commissions.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Commissions.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -159,8 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "866cefc95ebc7a2b",
+  "active": "25844325cf2a2ebb",
   "lastOpenFiles": [
-    "docs/Commissions.md"
+    "docs/css/custom.css",
+    "docs/Guides/My Favorite Tools.md",
+    "Untitled.md",
+    "docs/backlinkSnippet.html",
+    "docs/index.md",
+    "docs/Guides/World Development.md",
+    "site/search/search_index.json",
+    "site/Worlds/World Is Not Available/index.html",
+    "site/Worlds/World Is Not Available",
+    "site/Worlds/ISWM W2G/index.html",
+    "site/Worlds/ISWM W2G",
+    "site/Worlds/Forgotten Cat Tree/index.html",
+    "site/Worlds/Forgotten Cat Tree",
+    "site/Worlds/Abstract Backyard Glow/index.html",
+    "site/Worlds/Abstract Backyard Glow",
+    "site/Worlds/img/ISWMTheaterExample.png",
+    "site/Guides/img/ImporterExample.png",
+    "site/Apps/img/RTPT-Example.png",
+    "site/img/grid.png",
+    "docs/Guides/World Development/3. Tools You'll Need.md",
+    "docs/Guides/World Development/2. What to Expect.md",
+    "docs/Guides/World Development/1. Why.md",
+    "docs/Guides/Avatar Texture Optimization.md",
+    "docs/Guides/World Development/4. Project Setup.md",
+    "docs/Commissions.md",
+    "docs/Worlds/World Is Not Available.md",
+    "docs/Worlds/Abstract Backyard Glow.md",
+    "docs/Worlds/Forgotten Cat Tree.md",
+    "docs/Worlds/ISWM W2G.md",
+    "README.md"
   ]
 }
