@@ -10,9 +10,9 @@ By sharing my knowledge about virtual world development, I can hand the tools I 
 # 2. What to Expect
 First off I want to set expectations; like every form of art, you don't make virtual worlds to get rich. Some of you might find a way or get lucky, but it's never a given. **You make art because you love it.** Not for your family or friends, **but for you alone**.
 
-I've spent **way** to long grinding trying to strike it big, make content that will get me attention. All of it, and I do mean **all** of it has ultimately failed. Even some of my biggest successes and new accomplishments never felt like *my* accomplishments because I wasn't doing it for myself. [Forgotten Cat Tree](/Worlds/Forgotten Cat Tree), one of my biggest successes took months of labor and burnout only to succeed and feel... meh, I didn't feel any proud of it. 
+I've spent **way** to long grinding trying to strike it big, make content that will get me attention. All of it, and I do mean **all** of it has ultimately failed. Even some of my biggest successes and new accomplishments never felt like *my* accomplishments because I wasn't doing it for myself. [Forgotten Cat Tree](../Worlds/Forgotten Cat Tree.md), one of my biggest successes took months of labor and burnout only to succeed and feel... meh, I didn't feel any proud of it. 
 
-With that successful failure, I started making worlds just for myself, nobody else, and that started feeling much better. I went on to make [Abstract Backyard Glow](/Worlds/Abstract Backyard Glow) and that did moderately well and more or less stepped away from world making, it felt wrong, I was burnt out, and didn't want to do it anymore. Then one day, I made a joke with a friend and slapped together a [VRChat meta shitpost world](/Worlds/World Is Not Available) in under two hours one night before bed. And god damnit if that didn't make it through the VRChat Labs clout-gate in less than 48hrs with little to no marketing.
+With that successful failure, I started making worlds just for myself, nobody else, and that started feeling much better. I went on to make [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) and that did moderately well and more or less stepped away from world making, it felt wrong, I was burnt out, and didn't want to do it anymore. Then one day, I made a joke with a friend and slapped together a [VRChat meta shitpost world](/Worlds/World Is Not Available) in under two hours one night before bed. And god damnit if that didn't make it through the VRChat Labs clout-gate in less than 48hrs with little to no marketing.
 
 In contrast with worlds I've spent 100s of hours working on, that really hurts.
 
@@ -31,7 +31,7 @@ Here's what you'll need (don't worry all of these are free):
 - **[Current supported version of the Unity Editor](https://creators.vrchat.com/sdk/upgrade/current-unity-version/)** - Whatever version of Unity VRChat's currently using.
 - **Preferred model editor with a `.FBX` export format.** ([Blender](https://www.blender.org/) is recommended.)
 - **Preferred image/texture editor with `.PNG` export format** ([Paint.NET](https://www.getpaint.net/index.html) or [Krita](https://krita.org/en/) are recommended.)
-- **Windows OS** - Yes. I know. I hate it too. But so far the most stable and only officially supported editor OS for VRChat is Windows. If you're a Linux daily driver, I'd advise just getting Windows disk just for this trust me, it's just not worth the headache.
+- **Windows OS** - Yes. I know. I hate it too. But so far the most stable and only officially supported editor OS for VRChat is Windows. If you're a Linux daily driver, I'd advise just getting Windows disk and dual booting just for this. Trust me, it's just not worth the headache of trying to run Unity over proton or in a VM.
 
 The breadth of skills and disciplines that go into making virtual worlds is incredibly diverse, so your choice of tools will reflect what you're most comfortable with.
 
@@ -40,3 +40,20 @@ There are some installation gatchas that might trip you up or be inconvenient; h
 
 - I recommend first installing Unity Hub then the VCC, this way the VCC can call upon Unity Hub if it needs it.
 - Install Blender through the **[website](https://www.blender.org/)** installer not through Steam (yes it's on Steam). Unity will automatically call upon Blender to export `.blend` files (and maybe a few other types of files) in your project to `.fbx` at import time. But Unity can struggle to identify Blender if it's installed through steam.
+
+---
+
+# 4. Preproduction & Coming up with Ideas
+
+So of course, if you're going to be making a world, you have to already have and idea of what you want your world to look like. Make a list of everything you want in a VRC world, make some sketches, throw together a mood board, whatever works for you the best! Its way easier to learn new tools when you know what you're working towards.
+
+For mood boards, I strongly recommend [PureRef](https://www.pureref.com/), its a freemium virtual mood board program, it's got a bit of a learning curve, but it can really help pull ideas together.
+
+Of course, you don't strictly have to go into a world project knowing what you want, but it saves time. 
+
+For [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) (ABG) I designed the original floorplan by throwing a handful of pencils and pens on the floor, then vaguely rearranging them until they made a satisfying shape. I knew I wanted a sense of "unreality" and an aesthetic of a suburban American back yard, so I went to [AmbientCG](https://ambientcg.com/) and found some materials to match the vibe I was going for.
+
+All of this preproduction meant that the general shape of the first version of ABG was completed in a sitting or two, with further refinements, feedback, and additions later.
+
+---
+# 5. Modeling & Geometry
