@@ -1,4 +1,4 @@
-# Realtime Parameter Tracker!
+# Realtime Parameter Tracker
 Realtime Parameter tracker is a standalone companion app for VRChat that enables you to puppet an avatar parameter over a long period of time, between sessions, in real-time. You can use it to simulate real transitions or effects over the course hours, days and months, with everything occurring in real-world time.
 
 Imagine clothing that slowly morphs with the seasons, robots that slowly rust over months or years, or enabling your characters to transition over realtime-scales.
