@@ -1,0 +1,20 @@
+
+
+a {
+    color: #8000ff;
+}
+a:hover {
+    color: #4d0099;
+}
+
+
+.bg-primary {
+	background-color: #b366ff !important; 
+}
+
+
+body {
+    background-color: #fefafd;
+    background-image: url("../img/PaperBG.jpg");
+    background-repeat: repeat;
+}
