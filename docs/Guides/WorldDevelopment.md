@@ -1,5 +1,5 @@
 # World Development
-## Why?
+# Why?
 Hello, and thank you for being here. My primary purpose of this guide is to help catalogue my techniques and skills, both for my own future reflection and to document and share these techniques for other who wish to get into making virtual worlds in VRChat and beyond. Forgive me but I'd like to infodump my thoughts, if you just want a tutorial, skip this section.
 
 A lot of art and creativity flourishes and dies by the privileges and access to resources by the artists that create it. The same way some people pontificate on the number of Albert Einsteins equivalents are being born into economic situations they can't thrive; so too do artists of all kinds. But we live in an age where access to the internet is ubiquitous for many, and it's arguably visibly on the horizon and in the air for those who desire it and don't yet have it. 
@@ -7,7 +7,7 @@ A lot of art and creativity flourishes and dies by the privileges and access to 
 By sharing my knowledge about virtual world development, I can hand the tools I use to the people who need it for their own endeavors.
 
 ---
-# 2. What to Expect
+# What to Expect
 First off I want to set expectations; like every form of art, you don't make virtual worlds to get rich. Some of you might find a way or get lucky, but it's never a given. **You make art because you love it.** Not for your family or friends, **but for you alone**.
 
 I've spent **way** to long grinding trying to strike it big, make content that will get me attention. All of it, and I do mean **all** of it has ultimately failed. Even some of my biggest successes and new accomplishments never felt like *my* accomplishments because I wasn't doing it for myself. [Forgotten Cat Tree](../Worlds/Forgotten Cat Tree.md), one of my biggest successes took months of labor and burnout only to succeed and feel... meh, I didn't feel any proud of it. 
@@ -21,7 +21,7 @@ Which is why I say don't do this unless you genuinely want too. Don't let yourse
 If you don't feel like you have an itch to create, that's okay too. Usually that just means you haven't found the right medium for you or you just don't know how to stretch your muscles in the medium you've chosen. If you'd like further reading, Adam Savage's Every Tool's a Hammer (ISBN:9781982113476) is really one of my favorites to help ground myself surrounding my creative endeavors. 
 
 ---
-# 3. Tools You'll Need
+# Tools You'll Need
 Now with the introductory stuff out of the way, lets get down to practical information! Note that this blog assumes you're using VRChat. Note that this is being written around late 2024 and VRChat and it's SDK are subject to change, and I might not always have the time to update the information here. If you run into errors, ask around and check the official [VRChat Creator Docs](https://vcc.docs.vrchat.com/) and or the [general purpose documentation](https://docs.vrchat.com/).
 
 Here's what you'll need (don't worry all of these are free):
@@ -50,7 +50,7 @@ To create your project use the VCC mentioned previously, if not already done so,
 
 ---
 
-# 4. Preproduction & Coming up with Ideas
+# Preproduction & Coming up with Ideas
 
 So of course, if you're going to be making a world, you have to already have and idea of what you want your world to look like. If you already have a well defined vision, you can skip this section.
 
@@ -65,7 +65,7 @@ For [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) (ABG) I design
 All of this preproduction meant that the general shape of the first version of ABG was completed in a sitting or two, with further refinements, feedback, and additions later.
 
 ---
-# 5. Assets, Assets, and More Assets
+# Assets, Assets, and More Assets
 
 Okay, so you've figured out what you want, now it's time to go shopping! For assets I mean.
 
@@ -78,7 +78,7 @@ I'd recommend browsing my [Prefered Assets List](./MyPreferredAssets.md), and ex
 ## Blender Asset Libraries
 
 ---
-# 6. Modeling & Geometry
+# Modeling & Geometry
 
 Great! So now you've got an idea of what you want and have the resources to do it. Lets start making it a reality!
 

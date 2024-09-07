@@ -1,4 +1,6 @@
 site_name: Aetous' VRC Blog
+theme:
+  name: bootstrap
 plugins:
   - search
 extra_css:
