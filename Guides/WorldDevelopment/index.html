@@ -65,11 +65,11 @@
 </li>
                                     
 <li>
-    <a href="../My%20Preferred%20Assets/" class="dropdown-item">My Preferred Assets</a>
+    <a href="../MyPreferredAssets/" class="dropdown-item">MyPreferredAssets</a>
 </li>
                                     
 <li>
-    <a href="../World%20Checklist/" class="dropdown-item">World Checklist</a>
+    <a href="../WorldChecklist/" class="dropdown-item">World Checklist</a>
 </li>
                                     
 <li>
@@ -111,7 +111,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../World%20Checklist/" class="nav-link">
+                                <a rel="prev" href="../WorldChecklist/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
@@ -158,6 +158,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#project-setup" class="nav-link">Project Setup</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
             
@@ -166,8 +170,25 @@
               </ul>
             </li>
             
-            <li class="nav-item" data-bs-level="1"><a href="#5-modeling-geometry" class="nav-link">5. Modeling &amp; Geometry</a>
+            <li class="nav-item" data-bs-level="1"><a href="#5-assets-assets-and-more-assets" class="nav-link">5. Assets, Assets, and More Assets</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#importing-into-unity" class="nav-link">Importing Into Unity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#blender-asset-libraries" class="nav-link">Blender Asset Libraries</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#6-modeling-geometry" class="nav-link">6. Modeling &amp; Geometry</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#keeping-things-to-scale" class="nav-link">Keeping things to scale</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -195,10 +216,14 @@
 <ul>
 <li><strong><a href="https://vcc.docs.vrchat.com/">VRChat Creator Companion</a> (Also known as the VCC.)</strong> - micromanages project package updates and can even install the correct version of Unity for you.</li>
 <li><strong><a href="https://unity.com/unity-hub">Unity Hub</a></strong> - Micromanages your Unity installs, lets you add and remove platform export packages at any time. Requires a free Unity account. If the VCC ever has trouble installing Unity it might ask you to install it through Unity Hub. Great if you're also a Unity dev or need to export content for <a href="https://store.steampowered.com/app/661130/ChilloutVR/">ChilloutVR</a> or <a href="https://www.vseeface.icu/">VSeeFace</a>, which may require different unique Unity versions.</li>
-<li><strong><a href="https://creators.vrchat.com/sdk/upgrade/current-unity-version/">Current supported version of the Unity Editor</a></strong> - Whatever version of Unity VRChat's currently using.</li>
+<li><strong><a href="https://creators.vrchat.com/sdk/upgrade/current-unity-version/">Current supported version of the Unity Editor</a></strong> - Whatever version of Unity VRChat's currently using.<ul>
+<li>When asked, if you have the space, I always recommend installing the Android build module (for exporting for Quest and Android players) and the iOS module (for building for iOS players). They take a few GB of extra space.</li>
+</ul>
+</li>
 <li><strong>Preferred model editor with a <code>.FBX</code> export format.</strong> (<a href="https://www.blender.org/">Blender</a> is recommended.)</li>
 <li><strong>Preferred image/texture editor with <code>.PNG</code> export format</strong> (<a href="https://www.getpaint.net/index.html">Paint.NET</a> or <a href="https://krita.org/en/">Krita</a> are recommended.)</li>
 <li><strong>Windows OS</strong> - Yes. I know. I hate it too. But so far the most stable and only officially supported editor OS for VRChat is Windows. If you're a Linux daily driver, I'd advise just getting Windows disk and dual booting just for this. Trust me, it's just not worth the headache of trying to run Unity over proton or in a VM.</li>
+<li><strong>At least 20-30gb of room to spare</strong> on your project folder's drive and on the drive you have Unity installed on, preferably on an SSD if possible. Unity itself will need a large amount of cache space to store all the libraries and packages the editor needs. And due to how Unity works, the size of a project folder can easily become 2-3x larger than it's source files. (Still more space efficient than Unreal Engine, by a wide margin.)</li>
 </ul>
 <p>The breadth of skills and disciplines that go into making virtual worlds is incredibly diverse, so your choice of tools will reflect what you're most comfortable with.</p>
 <h2 id="installation">Installation</h2>
@@ -207,15 +232,33 @@
 <li>I recommend first installing Unity Hub then the VCC, this way the VCC can call upon Unity Hub if it needs it.</li>
 <li>Install Blender through the <strong><a href="https://www.blender.org/">website</a></strong> installer not through Steam (yes it's on Steam). Unity will automatically call upon Blender to export <code>.blend</code> files (and maybe a few other types of files) in your project to <code>.fbx</code> at import time. But Unity can struggle to identify Blender if it's installed through steam.</li>
 </ul>
+<h2 id="project-setup">Project Setup</h2>
+<p>If you're not making worlds for specific clients or with specific asset restrictions, I recommend just making one mega unity project to contain all your worlds. Yes, it will take longer to load up, but it makes maintaining your asset libraries and keeping your preferred plugins up to date much easier. You only have to bother updating the packages and unity version of one project.</p>
+<p>To create your project use the VCC mentioned previously, if not already done so, it will make sure you have the correct unity version installed. When you create a new project, just follow </p>
 <hr />
 <h1 id="4-preproduction-coming-up-with-ideas">4. Preproduction &amp; Coming up with Ideas</h1>
-<p>So of course, if you're going to be making a world, you have to already have and idea of what you want your world to look like. Make a list of everything you want in a VRC world, make some sketches, throw together a mood board, whatever works for you the best! Its way easier to learn new tools when you know what you're working towards.</p>
-<p>For mood boards, I strongly recommend <a href="https://www.pureref.com/">PureRef</a>, its a freemium virtual mood board program, it's got a bit of a learning curve, but it can really help pull ideas together.</p>
+<p>So of course, if you're going to be making a world, you have to already have and idea of what you want your world to look like. If you already have a well defined vision, you can skip this section.</p>
+<p>Make a list of everything you want in a VRC world, make some sketches, throw together a mood board, whatever works for you the best! Its way easier to learn new tools when you know what you're working towards.</p>
+<p>For mood boards, I strongly recommend <a href="https://www.pureref.com/">PureRef</a>, its a freemium virtual mood board program, it's got a bit of a learning curve, but it can really help pull ideas together. </p>
 <p>Of course, you don't strictly have to go into a world project knowing what you want, but it saves time. </p>
 <p>For <a href="../../Worlds/Abstract%20Backyard%20Glow/">Abstract Backyard Glow</a> (ABG) I designed the original floorplan by throwing a handful of pencils and pens on the floor, then vaguely rearranging them until they made a satisfying shape. I knew I wanted a sense of "unreality" and an aesthetic of a suburban American back yard, so I went to <a href="https://ambientcg.com/">AmbientCG</a> and found some materials to match the vibe I was going for.</p>
 <p>All of this preproduction meant that the general shape of the first version of ABG was completed in a sitting or two, with further refinements, feedback, and additions later.</p>
 <hr />
-<h1 id="5-modeling-geometry">5. Modeling &amp; Geometry</h1></div>
+<h1 id="5-assets-assets-and-more-assets">5. Assets, Assets, and More Assets</h1>
+<p>Okay, so you've figured out what you want, now it's time to go shopping! For assets I mean.</p>
+<p>I'd recommend browsing my <a href="../MyPreferredAssets/">Prefered Assets List</a>, and exploring what they have to offer. Depending on what you want, you likely don't need to spend any money. There are more than enough sources of free assets to put together a really nice world.</p>
+<h2 id="importing-into-unity">Importing Into Unity</h2>
+<h3 id="avoiding-asset-duplication">Avoiding Asset Duplication</h3>
+<h2 id="blender-asset-libraries">Blender Asset Libraries</h2>
+<hr />
+<h1 id="6-modeling-geometry">6. Modeling &amp; Geometry</h1>
+<p>Great! So now you've got an idea of what you want and have the resources to do it. Lets start making it a reality!</p>
+<p>Fire up your preferred environment modelling tool and lay out the vague shape of your space using low poly meshes and primatives. Don't spend too much time on it! This is called <a href="https://jackw-gamedesign.tumblr.com/post/139960850160/what-is-greyboxing">Greyboxing</a>. Greyboxing is the process of laying out a level or virtual space using simple geometry to experiment and verify your assumptions about a space before investing dozens of hours making it pretty.</p>
+<p>It's also recommended to use debug materials and surfaces, so you can better visually parse the geometry. For blender users, I recommend <a href="https://jade-ite.itch.io/worlduv">WorldUV</a>, which will perform one button world-space UV unwrapping in a method similar to Source Engine.</p>
+<h2 id="keeping-things-to-scale">Keeping things to scale</h2>
+<p>Cool! Now you've got a basic world geometry! But is it in the right scale and proportions? The best way to check is to use a Scale Model:</p>
+<p><img alt="Mayu Reference" src="../img/WorldDevelopment/MayuReference.png" title="Mayu Reference" /></p>
+<p>Avatar shown is <a href="https://azukitiger.gumroad.com/l/mayu">Mayu by Azuki</a>.</p></div>
             </div>
         </div>
 
