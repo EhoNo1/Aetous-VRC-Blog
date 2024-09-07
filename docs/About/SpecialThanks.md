@@ -1,4 +1,4 @@
-# Thanks To
+# Special Thanks
 (In no particular order.)
 ## My Found Family
 Including but not limited to:
@@ -8,6 +8,8 @@ Including but not limited to:
 - Jaycie
 - Starseeker
 - Oci
+- Rez
+- Subnet
 ## My Patreon Subscribers
 - Freakus
 - TeeJabs

@@ -3,7 +3,7 @@ Realtime Parameter tracker is a standalone companion app for VRChat that enables
 
 Imagine clothing that slowly morphs with the seasons, robots that slowly rust over months or years, or enabling your characters to transition over realtime-scales.
 
-![Example of the UI](./img/RTPT-Example.png "Example of the UI")
+![Example of the UI](docs/Apps%20&%20Games/img/RTPT-Example.png "Example of the UI")
 
 I've made an effort to make it as user friendly as possible, and I'll gladly add features as people request them over on the issue tracker!
 

@@ -11,6 +11,14 @@ a:hover {
 .bg-primary {
 	background-color: #b366ff !important; 
 }
+.btn-primary {
+    background-color: #8525e6!important;
+    border-color: #8525e6;
+}
+.btn-primary:hover {
+    background-color: #b366ff !important;
+    border-color: #8525e6;
+}
 
 
 body {
