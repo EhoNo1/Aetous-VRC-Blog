@@ -1,4 +1,6 @@
-site_name: Aetous' VRC Blog
+site_name: Aetous' Blog
+site_description: One stop infodump about all of Aetous' creative endeavors!
+site_author: Aetous
 theme:
   name: bootstrap
 plugins:
