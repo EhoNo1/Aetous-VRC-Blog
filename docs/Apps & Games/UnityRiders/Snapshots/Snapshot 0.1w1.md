@@ -43,4 +43,4 @@ Next week I want to work on fixing up a lot of the broken features, and adding m
 - ToyDragon
 - Teejabs
 
-If you like my work, consider [Supporting Me!](/About/SupportMe)
+If you like my work, consider [Supporting Me!](../../../About/SupportMe.md)
