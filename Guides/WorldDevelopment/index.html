@@ -68,7 +68,7 @@
 </li>
                                     
   <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">UnityRiders</a>
+    <a href="#" class="dropdown-item">UntitledRacingGame</a>
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
@@ -76,7 +76,11 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../Apps%20%26%20Games/UnityRiders/Snapshots/Snapshot%200.1w1/" class="dropdown-item">Snapshot 0.1w1</a>
+    <a href="../../Apps%20%26%20Games/UntitledRacingGame/Snapshots/Snapshot%200.1w1/" class="dropdown-item">Snapshot 0.1w1</a>
+</li>
+            
+<li>
+    <a href="../../Apps%20%26%20Games/UntitledRacingGame/Snapshots/Snapshot%200.1w2/" class="dropdown-item">Snapshot 0.1w2</a>
 </li>
     </ul>
   </li>
@@ -199,6 +203,15 @@
               </ul>
             </li>
             
+            <li class="nav-item" data-bs-level="1"><a href="#design-and-conquer" class="nav-link">Design and Conquer</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#mobile-first-design" class="nav-link">Mobile-First Design</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
             <li class="nav-item" data-bs-level="1"><a href="#assets-assets-and-more-assets" class="nav-link">Assets, Assets, and More Assets</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-bs-level="2"><a href="#importing-into-unity" class="nav-link">Importing Into Unity</a>
@@ -218,6 +231,39 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#bevel-your-edges" class="nav-link">Bevel Your Edges!</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#optimization" class="nav-link">Optimization</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#culling" class="nav-link">Culling</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#reasonable-meshing" class="nav-link">Reasonable Meshing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#reasonable-materials" class="nav-link">Reasonable Materials</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#draw-calls" class="nav-link">Draw Calls</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#dynamic-vs-baked-lighting" class="nav-link">Dynamic VS Baked Lighting</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#reign-in-post-processing" class="nav-link">Reign in Post Processing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -226,6 +272,11 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="world-development">World Development</h1>
+<blockquote>
+<p>[!Notice]
+This guide is currently under construction and incomplete!
+It may well contain incorrect information and has not undergone a final review process. If you spot an error or need me to add more information please feel free to report it to me at <a href="mailto:aetous@aeto.us">Aetous@aeto.us</a>.</p>
+</blockquote>
 <h1 id="why">Why?</h1>
 <p>Hello, and thank you for being here. My primary purpose of this guide is to help catalogue my techniques and skills, both for my own future reflection and to document and share these techniques for other who wish to get into making virtual worlds in VRChat and beyond. Forgive me but I'd like to infodump my thoughts, if you just want a tutorial, skip this section.</p>
 <p>A lot of art and creativity flourishes and dies by the privileges and access to resources by the artists that create it. The same way some people pontificate on the number of Albert Einsteins equivalents are being born into economic situations they can't thrive; so too do artists of all kinds. But we live in an age where access to the internet is ubiquitous for many, and it's arguably visibly on the horizon and in the air for those who desire it and don't yet have it. </p>
@@ -273,6 +324,10 @@
 <p>For <a href="../../Worlds/Abstract%20Backyard%20Glow/">Abstract Backyard Glow</a> (ABG) I designed the original floorplan by throwing a handful of pencils and pens on the floor, then vaguely rearranging them until they made a satisfying shape. I knew I wanted a sense of "unreality" and an aesthetic of a suburban American back yard, so I went to <a href="https://ambientcg.com/">AmbientCG</a> and found some materials to match the vibe I was going for.</p>
 <p>All of this preproduction meant that the general shape of the first version of ABG was completed in a sitting or two, with further refinements, feedback, and additions later.</p>
 <hr />
+<h1 id="design-and-conquer">Design and Conquer</h1>
+<h2 id="mobile-first-design">Mobile-First Design</h2>
+<p>https://www.geeksforgeeks.org/mobile-first-design/#</p>
+<hr />
 <h1 id="assets-assets-and-more-assets">Assets, Assets, and More Assets</h1>
 <p>Okay, so you've figured out what you want, now it's time to go shopping! For assets I mean.</p>
 <p>I'd recommend browsing my <a href="../MyPreferredAssets/">Prefered Assets List</a>, and exploring what they have to offer. Depending on what you want, you likely don't need to spend any money. There are more than enough sources of free assets to put together a really nice world.</p>
@@ -287,7 +342,32 @@
 <h2 id="keeping-things-to-scale">Keeping things to scale</h2>
 <p>Cool! Now you've got a basic world geometry! But is it in the right scale and proportions? The best way to check is to use a Scale Model:</p>
 <p><img alt="Mayu Reference" src="../img/WorldDevelopment/MayuReference.png" title="Mayu Reference" /></p>
-<p>Avatar shown is <a href="https://azukitiger.gumroad.com/l/mayu">Mayu by Azuki</a>.</p></div>
+<p>Avatar shown is <a href="https://azukitiger.gumroad.com/l/mayu">Mayu by Azuki</a>.</p>
+<h2 id="bevel-your-edges">Bevel Your Edges!</h2>
+<p>Have you ever noticed convex corners inside buildings aren't perfectly sharp? I mean <em>really</em> noticed, go and find one and touch it if you haven't considered it. If it's too sharp, construction crews might sand down the edge so it's not so sharp it scratches you or chips when bumped. </p>
+<p>Now, you might have also realized that a lot of the edges in your world model all have mathematically perfect sharp edges. If your consciousness hasn't your subconscious almost certainly has. </p>
+<p>The sharp edge subconsciously contributing to a very <em>slight</em> sense of unease so your body can avoid physical injury. Of course your mind knows it's not real and poses no danger, but your survival instinct's don't care.</p>
+<p>By simply giving all the sharp corners a <em>slight</em> bevel, you can eliminate this source of anxiety. Just a single plane will do. It's best to do this toward the <em>end</em> of developing a world or section, because it can overcomplicate editing the mesh.</p>
+<hr />
+<h1 id="optimization">Optimization</h1>
+<p>The most controversial word in the VRChat creative community. Like all of software there is no "silver bullet" or magic solution. Only a laundry list of different suggestions and techniques. Different worlds can have bad performance for a diverse number reasons. Both the device and It's platform can play a huge role. </p>
+<p>Recall back to the section on the [[#Mobile-First Design]], to make your world accessible to the highest number of people you'll want to intentionally target the least performant option. Higher performant devices won't even break a sweat if the world's built to run on lower ones, and you can always crank up settings and add more for the higher performing ones. </p>
+<p>Of course not all world ideas <em>can</em> run on quest or minimum spec android devices, and if yours can't then its not your problem to solve, and that's okay. Don't feel bad about it, it's a design approach, not a moral decision.</p>
+<p>From my experience, optimizing a world comes down to having an internal understanding about what's <em>necessary</em> to achieve your vision, and making an effort to avoid using excess resources.</p>
+<p>All of these considerations may be interdependent, and can limit your ability to make changes to your world later. So for now, just consider them and keep them in mind.</p>
+<h2 id="culling">Culling</h2>
+<p>If you haven't noticed (and if it works correctly, you won't) Unity will do it's best to try and cull (temporarily hide) objects that are both offscreen (<a href="https://docs.unity3d.com/Manual/UnderstandingFrustum.html">Frustrum Culling</a>) and objects that are occluded (or hidden) behind others (<a href="https://docs.unity3d.com/Manual/OcclusionCulling.html">Occlusion Culling</a>).</p>
+<h2 id="reasonable-meshing">Reasonable Meshing</h2>
+<p>If you've got a cluster of objects, say, a circle of beanbags like in my <a href="../../Worlds/Omni/">Omni</a> world, and they're all using the same material, you can theoretically combine them into just one mesh.</p>
+<p>However, bare in mind that meshes can't be <em>partially</em> culled, they are either culled or they aren't. It's best to group objects by proximity. If all the chairs in a world are one singular giant mesh, then <em>when one chair is rendered, all the chairs are being rendered.</em></p>
+<h2 id="reasonable-materials">Reasonable Materials</h2>
+<h2 id="draw-calls">Draw Calls</h2>
+<h2 id="dynamic-vs-baked-lighting">Dynamic VS Baked Lighting</h2>
+<p>Using dynamic lighting when it's not necessary is one of the easiest mistakes beginner world devs can make that can absolutely tank the performance of the world. It's aways best to just used Baked Lighting and avoid Dynamic Lighting at all costs <strong>unless</strong> you explicitly need dynamic lights for an important purpose.</p>
+<p>For the best crash course on </p>
+<p>https://www.youtube.com/watch?v=NOv31HSqs6U
+(TODO: ask Hiyu for permission to embed.)</p>
+<h2 id="reign-in-post-processing">Reign in Post Processing</h2></div>
             </div>
         </div>
 
