@@ -1,4 +1,8 @@
 # World Development
+
+> [!Notice]
+> This guide is currently under construction and incomplete!
+> It may well contain incorrect information and has not undergone a final review process. If you spot an error or need me to add more information please feel free to report it to me at [Aetous@aeto.us](mailto:aetous@aeto.us).
 # Why?
 Hello, and thank you for being here. My primary purpose of this guide is to help catalogue my techniques and skills, both for my own future reflection and to document and share these techniques for other who wish to get into making virtual worlds in VRChat and beyond. Forgive me but I'd like to infodump my thoughts, if you just want a tutorial, skip this section.
 
@@ -12,7 +16,7 @@ First off I want to set expectations; like every form of art, you don't make vir
 
 I've spent **way** to long grinding trying to strike it big, make content that will get me attention. All of it, and I do mean **all** of it has ultimately failed. Even some of my biggest successes and new accomplishments never felt like *my* accomplishments because I wasn't doing it for myself. [Forgotten Cat Tree](../Worlds/Forgotten Cat Tree.md), one of my biggest successes took months of labor and burnout only to succeed and feel... meh, I didn't feel any proud of it. 
 
-With that successful failure, I started making worlds just for myself, nobody else, and that started feeling much better. I went on to make [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) and that did moderately well and more or less stepped away from world making, it felt wrong, I was burnt out, and didn't want to do it anymore. Then one day, I made a joke with a friend and slapped together a [VRChat meta shitpost world](/Worlds/World Is Not Available) in under two hours one night before bed. And god damnit if that didn't make it through the VRChat Labs clout-gate in less than 48hrs with little to no marketing.
+With that successful failure, I started making worlds just for myself, nobody else, and that started feeling much better. I went on to make [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) and that did moderately well and more or less stepped away from world making, it felt wrong, I was burnt out, and didn't want to do it anymore. Then one day, I made a joke with a friend and slapped together a [VRChat meta shitpost world](../Worlds/World Is Not Available.md) in under two hours one night before bed. And god damnit if that didn't make it through the VRChat Labs clout-gate in less than 48hrs with little to no marketing.
 
 In contrast with worlds I've spent 100s of hours working on, that really hurts.
 
@@ -65,6 +69,11 @@ For [Abstract Backyard Glow](../Worlds/Abstract Backyard Glow.md) (ABG) I design
 All of this preproduction meant that the general shape of the first version of ABG was completed in a sitting or two, with further refinements, feedback, and additions later.
 
 ---
+# Design and Conquer
+## Mobile-First Design
+https://www.geeksforgeeks.org/mobile-first-design/#
+
+---
 # Assets, Assets, and More Assets
 
 Okay, so you've figured out what you want, now it's time to go shopping! For assets I mean.
@@ -91,3 +100,47 @@ Cool! Now you've got a basic world geometry! But is it in the right scale and pr
 ![Mayu Reference](./img/WorldDevelopment/MayuReference.png "Mayu Reference")
 
 Avatar shown is [Mayu by Azuki](https://azukitiger.gumroad.com/l/mayu).
+
+
+## Bevel Your Edges!
+Have you ever noticed convex corners inside buildings aren't perfectly sharp? I mean *really* noticed, go and find one and touch it if you haven't considered it. If it's too sharp, construction crews might sand down the edge so it's not so sharp it scratches you or chips when bumped. 
+
+Now, you might have also realized that a lot of the edges in your world model all have mathematically perfect sharp edges. If your consciousness hasn't your subconscious almost certainly has. 
+
+The sharp edge subconsciously contributing to a very *slight* sense of unease so your body can avoid physical injury. Of course your mind knows it's not real and poses no danger, but your survival instinct's don't care.
+
+By simply giving all the sharp corners a *slight* bevel, you can eliminate this source of anxiety. Just a single plane will do. It's best to do this toward the *end* of developing a world or section, because it can overcomplicate editing the mesh.
+
+---
+# Optimization
+The most controversial word in the VRChat creative community. Like all of software there is no "silver bullet" or magic solution. Only a laundry list of different suggestions and techniques. Different worlds can have bad performance for a diverse number reasons. Both the device and It's platform can play a huge role. 
+
+Recall back to the section on the [[#Mobile-First Design]], to make your world accessible to the highest number of people you'll want to intentionally target the least performant option. Higher performant devices won't even break a sweat if the world's built to run on lower ones, and you can always crank up settings and add more for the higher performing ones. 
+
+Of course not all world ideas *can* run on quest or minimum spec android devices, and if yours can't then its not your problem to solve, and that's okay. Don't feel bad about it, it's a design approach, not a moral decision.
+
+From my experience, optimizing a world comes down to having an internal understanding about what's *necessary* to achieve your vision, and making an effort to avoid using excess resources.
+
+All of these considerations may be interdependent, and can limit your ability to make changes to your world later. So for now, just consider them and keep them in mind.
+## Culling
+If you haven't noticed (and if it works correctly, you won't) Unity will do it's best to try and cull (temporarily hide) objects that are both offscreen ([Frustrum Culling](https://docs.unity3d.com/Manual/UnderstandingFrustum.html)) and objects that are occluded (or hidden) behind others ([Occlusion Culling](https://docs.unity3d.com/Manual/OcclusionCulling.html)).
+## Reasonable Meshing
+If you've got a cluster of objects, say, a circle of beanbags like in my [Omni](./../Worlds/Omni.md) world, and they're all using the same material, you can theoretically combine them into just one mesh.
+
+ However, bare in mind that meshes can't be *partially* culled, they are either culled or they aren't. It's best to group objects by proximity. If all the chairs in a world are one singular giant mesh, then *when one chair is rendered, all the chairs are being rendered.*
+
+## Reasonable Materials
+
+
+## Draw Calls
+
+## Dynamic VS Baked Lighting
+Using dynamic lighting when it's not necessary is one of the easiest mistakes beginner world devs can make that can absolutely tank the performance of the world. It's aways best to just used Baked Lighting and avoid Dynamic Lighting at all costs **unless** you explicitly need dynamic lights for an important purpose.
+
+For the best crash course on 
+
+https://www.youtube.com/watch?v=NOv31HSqs6U
+(TODO: ask Hiyu for permission to embed.)
+
+## Reign in Post Processing
+
