@@ -3,7 +3,8 @@ site_description: One stop infodump about all of Aetous' creative endeavors!
 site_author: Aetous
 theme:
   name: bootstrap
-plugins:
+  custom_dir: overrides
+plugins: 
   - search
 extra_css:
   - css/custom.css
