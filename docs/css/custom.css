@@ -40,6 +40,14 @@ a:hover {
 }
 
 
+#event-timer {
+    text-align: center;
+
+    #timer-text {
+        font-size: x-large;
+    }
+}
+
 
 body {
     background-color: #e5d7eb;

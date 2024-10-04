@@ -1,12 +1,9 @@
-console.log("Hello World");
-
 fetch("https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/adMetadata.json")
     .then(function (response) {
         //wait for the promise to be fufilled
         return response.json();
     })
     .then(function(data) {
-        console.log(data);
         let adMetadata = data.adMetadata;
 
         for (let i = 0; i < 3; i++) {
