@@ -6,5 +6,9 @@ theme:
   custom_dir: overrides
 plugins: 
   - search
+  - redirects:
+      redirect_maps:
+        'omni.md': 'Worlds/Omni.md'
+        'abg.md': 'Worlds/Abstract Backyard Glow.md'
 extra_css:
   - css/custom.css
