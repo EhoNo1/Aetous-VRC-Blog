@@ -21,6 +21,8 @@ This time I had focused on a predominantly Blender based workflow, assembling th
 - [Unity Viking Village](https://assetstore.unity.com/packages/essentials/tutorial-projects/viking-village-urp-29140) (Grass texture)
 - [VRS Space Pack](https://vr.space/download/free-furniture-pack-2022/) (Used Premium version, unable to find premium version link)
 ## Changelogs
+### 0.4
+- Added dynamically loading supporter list.
 ### 0.3
 - Fixed unbaked light probes.
 - Expanded ocean floor to horizon
