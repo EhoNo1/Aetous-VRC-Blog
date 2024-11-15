@@ -1,9 +1,9 @@
 const cacheName = "TailTwistStudios-Lancer Clocks-1.0";
 const contentToCache = [
-    "Build/0.2.loader.js",
-    "Build/0.2.framework.js.br",
-    "Build/0.2.data.br",
-    "Build/0.2.wasm.br",
+    "Build/0.2.1.loader.js",
+    "Build/0.2.1.framework.js.gz",
+    "Build/0.2.1.data.gz",
+    "Build/0.2.1.wasm.gz",
     "TemplateData/style.css"
 
 ];
