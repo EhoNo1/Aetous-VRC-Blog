@@ -9,7 +9,7 @@ a:hover {
 
 
 .bg-primary {
-	background-color: #b366ff !important; 
+	background-color: #683b94 !important; 
 }
 .btn-primary {
     background-color: #8525e6!important;
@@ -21,8 +21,36 @@ a:hover {
 }
 
 
+#ad-block {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #683b94;
+    
+
+    img {
+        border-radius: 5px;
+    }
+
+    #ad-disclaimer {
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
+#event-timer {
+    text-align: center;
+
+    #timer-text {
+        font-size: x-large;
+    }
+}
+
+
 body {
-    background-color: #fefafd;
-    background-image: url("../img/PaperBG.jpg");
+    background-color: #e5d7eb;
     background-repeat: repeat;
 }
+
