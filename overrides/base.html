@@ -48,7 +48,7 @@
   <script src="{{base_url}}/js/bootstrap.min.js"></script>
 
   <script src="{{base_url}}/js/AdvertisementLib.js"></script>
-  <script src="{{base_url}}/js/EventLib.js"></script>
+  <!--<script src="{{base_url}}/js/EventLib.js"></script>-->
 
   {%- if config.theme.highlightjs %}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
@@ -228,28 +228,11 @@
           <hr>
         </div>-->
 
-        <div id="ad-carousel" class="carousel slide ad" aria-hidden="true" data-ride="carousel">
-          <div class="carousel-inner">
-
-            <div class="carousel-item active">
-              <a id="ad-link-1">
-                <img class="d-block w-100" id="ad-image-1"
-                  src="https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/Image1.png">
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a id="ad-link-2">
-                <img class="d-block w-100" id="ad-image-2"
-                  src="https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/Image2.png">
-              </a>
-            </div>
-            <div class="carousel-item">
-              <a id="ad-link-3">
-                <img class="d-block w-100" id="ad-image-3"
-                  src="https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/Image3.png">
-              </a>
-            </div>
-          </div>
+        <div id="ad-block" class="ad" aria-hidden="true">
+          <a id="ad-link">
+            <img class="d-block w-100" id="ad-image"
+              src="https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/Image1.png">
+          </a>
           <aside id="ad-disclaimer">Try some of our other stuff!</aside>
         </div>
         

@@ -5,14 +5,20 @@ fetch("https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/adM
     })
     .then(function(data) {
         let adMetadata = data.adMetadata;
+        let randomIndex = Math.floor(Math.random() * adMetadata.length);
 
-        for (let i = 0; i < 3; i++) {
-            let imageElement = document.getElementById(`ad-image-${(i+1)}`);
-            imageElement.alt = adMetadata[i].imageAltText;
 
-            let linkElement = document.getElementById(`ad-link-${(i+1)}`);
-            linkElement.href = adMetadata[i].linkDestination;
-        }
+        let imageElement = document.getElementById(`ad-image`);
+        imageElement.src = "https://tailtwiststudios.github.io/TTS-VRC-Public-Resources/universal/Image" + (randomIndex + 1) + ".png"
+        imageElement.alt = adMetadata[randomIndex].imageAltText;
+
+        let linkElement = document.getElementById(`ad-link`);
+        linkElement.href = adMetadata[randomIndex].linkDestination;
+
+        let adDisclaimer = document.getElementById('ad-disclaimer');
+        adDisclaimer.textContent = adMetadata[randomIndex].imageAltText;
+        
+        console.log("Successfully loaded advertisments. If you're looking to block them, block divs with the class 'ad'.")
     })
     .catch(function (err) {
         console.log(err);
