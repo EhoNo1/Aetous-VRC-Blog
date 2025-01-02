@@ -3,7 +3,12 @@ site_description: One stop infodump about all of Aetous' creative endeavors!
 site_author: Aetous
 theme:
   name: bootstrap
-plugins:
+  custom_dir: overrides
+plugins: 
   - search
+  - redirects:
+      redirect_maps:
+        'omni.md': 'Worlds/Omni.md'
+        'abg.md': 'Worlds/Abstract Backyard Glow.md'
 extra_css:
   - css/custom.css
