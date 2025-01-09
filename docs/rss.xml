@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Aetous' Blog</title>
+        <description>The latest projects and happenings from Aetous!</description>
+        <link>https://aeto.us</link>
+        <managingEditor>aetous@aeto.us (Aetous)</managingEditor>
+        <webMaster>aetous@aeto.us (Aetous)</webMaster>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <generator>Written by hand</generator>
+        
+        <!--VRChat Worlds-->
+        <item>
+            <title>This VRChat World Is Not Available</title>
+            <description>Or is it?</description>
+            <link>https://aeto.us/Worlds/World%20Is%20Not%20Available/</link>
+            <category>VRChat</category>
+            <pubDate>October 2024</pubDate>
+        </item>
+        <item>
+            <title>Forgotten Omni VRChat World</title>
+            <description>Ocean Palace and Viewfinder Inspired VRChat World</description>
+            <link>https://aeto.us/Worlds/Omni/</link>
+            <category>VRChat</category>
+            <pubDate>August 2024</pubDate>
+        </item>
+        <item>
+            <title>ISWM W2G VRChat World</title>
+            <description>Theatre VRChat world with custom code to watch In Space With Markiplier!</description>
+            <link>https://aeto.us/Worlds/ISWM%20W2G/</link>
+            <category>VRChat</category>
+            <pubDate>April 2024</pubDate>
+        </item>
+        <item>
+            <title>Abstract Backyard Glow VRChat World</title>
+            <description>A familiar but unreal vrchat world...</description>
+            <link>https://aeto.us/Worlds/Abstract%20Backyard%20Glow/</link>
+            <category>VRChat</category>
+            <pubDate>April 2024</pubDate>
+        </item>
+        <item>
+            <title>Forgotten Cat Tree VRChat World</title>
+            <description>A cozy vrchat world in a forgotten ocean...</description>
+            <link>https://aeto.us/Worlds/Forgotten%20Cat%20Tree/</link>
+            <category>VRChat</category>
+            <pubDate>February 2024</pubDate>
+        </item>
+        
+        <!--Apps & Games-->
+        <item>
+            <title>Realtime Parameter Tracker</title>
+            <description>A Standalone App for </description>
+            <link>https://aeto.us/Worlds/Forgotten%20Cat%20Tree/</link>
+            <category>VRChat</category>
+            <pubDate>February 2024</pubDate>
+        </item>
+    </channel>
+</rss>

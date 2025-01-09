@@ -1,4 +1,6 @@
 # Forgotten Cat Tree
+*Created: Approximately February 2024*
+
 VRChat: [https://vrchat.com/home/world/wrld_463453b8-4710-4d46-97a5-8c617b0727ca](https://vrchat.com/home/world/wrld_463453b8-4710-4d46-97a5-8c617b0727ca)
 
 ![Forgotten Cat Tree Logo](./img/ForgottenCatTree.png "Forgotten Cat Tree Logo")

@@ -140,7 +140,6 @@ Using dynamic lighting when it's not necessary is one of the easiest mistakes be
 For the best crash course on 
 
 https://www.youtube.com/watch?v=NOv31HSqs6U
-(TODO: ask Hiyu for permission to embed.)
 
 ## Reign in Post Processing
 
