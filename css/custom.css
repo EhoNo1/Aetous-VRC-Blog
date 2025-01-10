@@ -39,6 +39,12 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    #ad-block {
+        display: none;
+    }
+}
+
 
 #event-timer {
     text-align: center;
