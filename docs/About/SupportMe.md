@@ -5,3 +5,4 @@ I do all of my work for barely enough for a coffee. If you enjoy it and want mor
 - Ko-Fi: [TailTwistStudios](https://ko-fi.com/tailtwiststudios)
 - Twitch: [TailTwistStudios](https://www.twitch.tv/tailtwiststudios)
 - Discord Community: [https://discord.gg/7aZTnd7mHB](https://discord.gg/7aZTnd7mHB)
+- RSS Feed: <a href="https://aeto.us/rss.xml"><i class="bi bi-rss-fill"></i></a>

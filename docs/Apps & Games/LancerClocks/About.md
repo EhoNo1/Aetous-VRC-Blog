@@ -11,4 +11,4 @@ You are welcome to use this webapp on both for-profit and non-profit streams.
 
 Attribution is requested and greatly appreciated, but not required. You can do so by simply adding something `Lancer clock display by TailTwistStudios` somewhere in your stream description, or anywhere you would normally place attributions.
 
-If you're making enough money from streaming to spare I'd greatly appreciate a dollar or two. [Support Me!](/About/SupportMe/)
+If you're making enough money from streaming to spare I'd greatly appreciate a dollar or two. [Support Me!](../../About/SupportMe.md)
