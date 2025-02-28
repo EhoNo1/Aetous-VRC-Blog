@@ -1,6 +1,8 @@
 site_name: Aetous' Blog
 site_description: One stop infodump about all of Aetous' creative endeavors!
 site_author: Aetous
+site_url: https://aeto.us
+docs_dir: aetous-vrc-blog
 theme:
   name: bootstrap
   custom_dir: overrides

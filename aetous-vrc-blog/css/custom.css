@@ -1,0 +1,62 @@
+
+
+a {
+    color: #8000ff;
+}
+a:hover {
+    color: #4d0099;
+}
+
+
+.bg-primary {
+	background-color: #683b94 !important; 
+}
+.btn-primary {
+    background-color: #8525e6!important;
+    border-color: #8525e6;
+}
+.btn-primary:hover {
+    background-color: #b366ff !important;
+    border-color: #8525e6;
+}
+
+
+#ad-block {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #683b94;
+    
+
+    img {
+        border-radius: 5px;
+    }
+
+    #ad-disclaimer {
+        font-size: small;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #ad-block {
+        display: none;
+    }
+}
+
+
+#event-timer {
+    text-align: center;
+
+    #timer-text {
+        font-size: x-large;
+    }
+}
+
+
+body {
+    background-color: #e5d7eb;
+    background-repeat: repeat;
+}
+
