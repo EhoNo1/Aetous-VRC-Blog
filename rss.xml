@@ -63,5 +63,12 @@
         </item>
 
         <!--Articles-->
+        <item>
+            <title>It's been a while!</title>
+            <description>Let's catch up!</description>
+            <link>https://aeto.us/Blog/2025-02-27/</link>
+            <category>Blog</category>
+            <pubDate>2/27/2025</pubDate>
+        </item>
     </channel>
 </rss>
